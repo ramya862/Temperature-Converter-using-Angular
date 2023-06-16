@@ -1,0 +1,15 @@
+<body>
+<div class="form">
+  <form>
+    <legend class="title"><h2 style="color:white"><b>Temperature Converter</b></h2></legend><br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1qr5udsGZghVcAHogtzF2xC0uPjY_tXxzITsrqHrNvw&usqp=CAU&ec=48665701">
+    <h4 class="label" style="color:rgb(234, 107, 222)"><marquee>Please Enter the temperature in Celsius</marquee></h4><br>
+    <h3 class="subtitle" style="color:white"> Celsius .C</h3><br>
+
+    <input type="number" class="input" placeholder="enter the readings" name="c" [(ngModel)]="cel" (ngModelChange)="converter()"><br><br>
+    <h3 style="color:white"><b>Fahrenheit .F </b></h3>
+    <h4 *ngIf="conv" class="subtitle" style="color:white"></h4><br>
+     <input  placeholder="readings in Fahrenheit" type="number" class="input" [value]="far">
+  </form>
+</div>
+</body>

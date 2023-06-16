@@ -1,0 +1,30 @@
+form{
+    text-align: center;
+        background-color: #3e0c4d;
+        padding: 20px;
+        margin-left: 33%;
+        margin-right: 43%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        
+          }
+img
+{
+    height:150px;
+    width:90px;
+}
+input[type=number], select {
+    width: 50%;
+    padding: 5px 40px;
+   
+  }
+  body{
+    background-image: url('https://www.shutterstock.com/image-vector/doctor-checking-temperature-girl-medical-260nw-1719769144.jpg');
+    height: 10%;
+
+    /* Center and scale the image nicely */
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+  
